@@ -6,6 +6,9 @@ Python3 Powerful Content Management System
 
 **Apache2 configuration for EaglePress**
 ```
+AllowOverride None
+Require all granted
+
 Options +ExecCGI
 AddHandler cgi-script .py
 AddHandler default-handler .css .js .jpg .jpeg .png .gif .ico .svg .woff .woff2 .ttf .eot .webp .mp4 .mp3 .pdf .zip
